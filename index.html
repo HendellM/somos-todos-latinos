@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lendas Latinas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/img-assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color:#FFFFED">
+    <!-- Navbar -->
+    <header class="mb-5">
+        <!--Navbar principal-->
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg shadow-lg"
+            style="background-color: #AB262A;">
+            <div class="container-fluid">
+                <a id="logo" class="px-4 link-opacity-50-hover nav-link link-light navbar-brand"
+                    href="index.html">Leyendas Latinas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
+                                href="html/catálogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
+                                href="html/sobre.html">Sobre Nós</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button id="btn-lupa" class="btn d-lg-flex" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <input id="input-pesquisa" class="form-control me-2 d-lg-block w-100" type="search"
+                            placeholder="Busque por lendas ou países" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!--Banner da seção principal-->
+        <div id="banner-main" class="position-relative overflow-hidden p-md-3 text-center mb-4" style="color: #fff;">
+            <div class="col-md-6 p-lg-1 mx-auto my-4">
+                <h1 class="display-3 fw-bold">Leyendas Latinas</h1>
+                <h3 class="fw-normal text-muted mb-3">Embarque no mundo das lendas de nossa região!</h3>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+        <section id="principais-lendas" class="py-5">
+          <div class="container rounded-4 shadow-sm p-4" style="background-color: #ED4524;">
+            <h2 class="text-center display-5 fw-bold mb-5 text-light">Principais Lendas</h2>
+            <div class="row g-4 justify-content-center">
+              <!-- La Llorona -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
+                <img src="img/img-media/llorona.jpg" alt="La Llorona">
+                <div class="card-overlay">
+                  <h5 class="card-title">La Llorona</h5>
+                  <p class="card-description">Es una figura femenina fantasmal que llora la muerte de sus hijos.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/lallorona.html" role="button">Leia</a>
+                </div>
+              </div>
+              <!-- Aho Aho -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
+                <img src="img/img-media/ahoaho.jpeg" alt="Ahó Ahó">
+                <div class="card-overlay">
+                  <h5 class="card-title">Ahó Ahó</h5>
+                  <p class="card-description">Una criatura parecida a una oveja, pero mucho más grande. Con orígenes provenientes de las misiones jesuíticas en el territorio de los indios guaraníes.
+                  </p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/ahoaho.html" role="button">Leia</a>
+                </div>
+              </div>
+              <!-- El Pombero -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
+                <img src="img/img-media/elpombero.jpeg" alt="El Pombero">
+                <div class="card-overlay">
+                  <h5 class="card-title">El Pombero</h5>
+                  <p class="card-description">Es una criatura fea y muy peluda, capaz de imitar el sonido de varias criaturas.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/elpombero.html" role="button">Leia</a>
+                </div>
+              </div>
+              <!-- Chupacabra -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
+                <img src="img/img-media/chupacabra.jpeg" alt="Chupacabra">
+                <div class="card-overlay">
+                  <h5 class="card-title">Chupacabra</h5>
+                  <p class="card-description">Una criatura que se alimenta de la sangre de sus víctimas, su origen es un misterio y hasta el día de hoy, es una pesadilla para los agricultores..</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/chupacabra.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- El Silbon -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/elsilbon.jpeg" alt="El Silbon">
+                <div class="card-overlay">
+                  <h5 class="card-title">El Silbon</h5>
+                  <p class="card-description">La leyenda de un niño que mató a su padre y lleva consigo sus restos.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/elsilbon.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- Mapinguari -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/mapinguari.jpeg" alt="Mapinguari">
+                <div class="card-overlay">
+                  <h5 class="card-title">Mapinguari</h5>
+                  <p class="card-description">El Mapinguari es una criatura mitad humana y mitad animal, solo devora las cabezas de sus víctimas.
+                  </p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/mapinguari.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- Tunche -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/tunche.jpeg" alt="Tunche">
+                <div class="card-overlay">
+                  <h5 class="card-title">Tunche</h5>
+                  <p class="card-description">Un espíritu protector de la selva peruana en que vive, atacando a cualquiera que cante su melodía.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/tunche.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- Yakuruna -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/yakuruna.jpeg" alt="Yakuruna">
+                <div class="card-overlay">
+                  <h5 class="card-title">Yakuruna</h5>
+                  <p class="card-description">Conocido como el "Señor de las Aguas", mantiene el equilibrio de la vida acuática.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/yakuruna.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- Vitória Régia -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/vitoriaregia.jpeg" alt="Vitória Régia">
+                <div class="card-overlay">
+                  <h5 class="card-title">Vitória Régia</h5>
+                  <p class="card-description">Esta es una leyenda sobre una niña que muere para unirse con el amor de su vida.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/vitoriaregia.html" role="button">Ler</a>
+                </div>
+              </div>
+              <!-- Caipora -->
+              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
+                <img src="img/img-media/caipora.jpeg" alt="Caipora">
+                <div class="card-overlay">
+                  <h5 class="card-title">Caipora</h5>
+                  <p class="card-description">Um barbeiro judeu se vê confundido com o ditador fascista Adenoid Hynkel, uma
+                    paródia de Hitler.</p>
+                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/caipora.html" role="button">Ler</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section id="Os caçadores" class="py-5">
+          <div class="container rounded-4 shadow-sm p-4" style="background-color: #ED4524;">
+            <h2 class="text-center display-5 fw-bold mb-5 text-light">Quem somos?</h2>
+
+              <!-- Bloco 1 -->
+              <div class="row content-section align-items-center">
+                  <div class="col-md-6">
+                      <img src="../img/img-assets/codigo.jpeg" alt="Código do site" class="content-img">
+                  </div>
+                  <div class="col-md-6">
+                      <h4>Técnologias utilizadas</h4>
+                      <p>
+                          Nós utilizamos diversas tecnologias modernas de desenvolvimento web para dar vida ao
+                          <span class="fw-bold">Chrono+</span>, garantindo um site funcional, responsivo e atraente.
+                          Entre as principais
+                          ferramentas, destacamos o uso de <span class="fw-bold">HTML</span> para a estruturação das
+                          páginas, <span class="fw-bold">CSS</span> para
+                          estilização e design, e <span class="fw-bold">JavaScript</span> (tanto interno quanto
+                          externo) para implementar
+                          interatividade e dinamicidade.
+                      </p>
+
+                      <p>
+                          Além disso, incorporamos o <span class="fw-bold">Bootstrap 5</span>, uma poderosa biblioteca
+                          de front-end que nos
+                          permitiu agilizar o desenvolvimento e criar layouts responsivos e consistentes com menos
+                          esforço. Para otimizar ainda mais o processo, também utilizamos <span
+                              class="fw-bold">inteligência artificial</span>
+                          para acelerar etapas específicas do projeto e estimular o surgimento de ideias criativas,
+                          aumentando nossa produtividade e eficiência.
+                      </p>
+                      <p>
+                          Essa combinação de tecnologias e métodos nos possibilitou entregar uma experiência de
+                          navegação fluida e intuitiva, demonstrando não apenas nosso aprendizado técnico, mas também
+                          a capacidade de aplicar essas ferramentas de maneira integrada e inovadora.
+                      </p>
+                  </div>
+              </div>
+
+              <!-- Bloco 2 -->
+              <div class="row content-section align-items-center mb-5">
+                  <div class="col-md-6 order-md-2">
+                      <img src="../img/img-assets/ideias.png" alt="Ideias do site" class="content-img">
+                  </div>
+                  <div class="col-md-6 order-md-1">
+                      <h4>Desafios na Produção</h4>
+                      <p>
+                          A jornada de criar o <span class="fw-bold">Chrono+</span> não foi fácil. Desde o início, os
+                          desafios foram muitos: entender como integrar diferentes tecnologias, aprender a lidar com
+                          bibliotecas como o <span class="fw-bold">Bootstrap 5</span>, e garantir que o site fosse responsivo e funcional.
+                          Além disso, a curadoria de filmes de <span class="fw-bold">domínio público</span> exigiu
+                          pesquisa detalhada e análise criteriosa para garantir que as obras estivessem corretamente
+                          categorizadas e disponíveis sem infringir direitos autorais.
+                      </p>
+                      <p>
+                          No entanto, cada obstáculo trouxe uma valiosa lição. Aprendi a trabalhar de forma
+                          independente, a resolver problemas técnicos e a importância de uma boa organização no
+                          desenvolvimento de um site. O projeto me ensinou não apenas habilidades técnicas, mas também
+                          a importância de <span class="fw-bold">perseverar</span> diante das dificuldades e de sempre
+                          buscar melhorar.
+                      </p>
+                  </div>
+              </div>
+
+              <!-- Bloco 3 -->
+              <div class="row content-section justify-content-center text-center">
+                  
+                  <div class="col-md-6">
+                      <h4>O Futuro do Chrono+</h4>
+                      <p>
+                          Nosso objetivo é continuar melhorando e expandindo o projeto. Futuras atualizações
+                          podem incluir mais filmes e séries de <span class="fw-bold">domínio público</span>, recursos
+                          interativos, como <span class="fw-bold">classificações de usuários</span>, e até uma versão
+                          mais avançada de recomendação de conteúdo, utilizando <span class="fw-bold">inteligência
+                              artificial</span> para sugerir filmes baseados nos gostos do usuário. Queremos
+                          transformar o <span class="fw-bold">Chrono+</span> em um espaço dinâmico e sempre em
+                          evolução, que acompanhe as tendências do <span class="fw-bold">cinema</span> e atenda às
+                          necessidades de um público crescente.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="rodapé" style="background-color: #AB262A;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
+            <a href="html/feedback.html" class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Feedback</a>
+          </div>
+          <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
+            <a href="html/sobre-nos.html" class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Sobre nós</a>
+          </div>
+        </div>
+        <hr class="my-3" style="border-color: white;">
+        <div class="text-center">
+          <h1 id="logo" class="px-4 navbar-brand" href="index.html">Leyendas Latinas</h1>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

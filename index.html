@@ -1,231 +1,154 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lendas Latinas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/img-assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leyendas Latinas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/img-assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body style="background-color:#FFFFED">
-    <!-- Navbar -->
-    <header class="mb-5">
-        <!--Navbar principal-->
-        <nav id="navbar" class="navbar fixed-top navbar-expand-lg shadow-lg"
-            style="background-color: #AB262A;">
-            <div class="container-fluid">
-                <a id="logo" class="px-4 link-opacity-50-hover nav-link link-light navbar-brand"
-                    href="index.html">Leyendas Latinas</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
-                                href="html/catálogo.html">Catálogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
-                                href="html/sobre.html">Sobre Nós</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <button id="btn-lupa" class="btn d-lg-flex" type="button">
-                            <i class="bi bi-search"></i>
-                        </button>
-                        <input id="input-pesquisa" class="form-control me-2 d-lg-block w-100" type="search"
-                            placeholder="Busque por lendas ou países" aria-label="Search">
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-    <main>
-        <!--Banner da seção principal-->
-        <div id="banner-main" class="position-relative overflow-hidden p-md-3 text-center mb-4" style="color: #fff;">
-            <div class="col-md-6 p-lg-1 mx-auto my-4">
-                <h1 class="display-3 fw-bold">Leyendas Latinas</h1>
-                <h3 class="fw-normal text-muted mb-3">Embarque no mundo das lendas de nossa região!</h3>
-            </div>
-            <div class="product-device shadow-sm d-none d-md-block"></div>
-            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-        </div>
-
-        <section id="principais-lendas" class="py-5">
-          <div class="container rounded-4 shadow-sm p-4" style="background-color: #ED4524;">
-            <h2 class="text-center display-5 fw-bold mb-5 text-light">Principais Lendas</h2>
-            <div class="row g-4 justify-content-center">
-              <!-- La Llorona -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
-                <img src="img/img-media/llorona.jpg" alt="La Llorona">
-                <div class="card-overlay">
-                  <h5 class="card-title">La Llorona</h5>
-                  <p class="card-description">Es una figura femenina fantasmal que llora la muerte de sus hijos.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/lallorona.html" role="button">Leia</a>
-                </div>
-              </div>
-              <!-- Aho Aho -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
-                <img src="img/img-media/ahoaho.jpeg" alt="Ahó Ahó">
-                <div class="card-overlay">
-                  <h5 class="card-title">Ahó Ahó</h5>
-                  <p class="card-description">Una criatura parecida a una oveja, pero mucho más grande.
-                  </p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/ahoaho.html" role="button">Leia</a>
-                </div>
-              </div>
-              <!-- El Pombero -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
-                <img src="img/img-media/elpombero.jpeg" alt="El Pombero">
-                <div class="card-overlay">
-                  <h5 class="card-title">El Pombero</h5>
-                  <p class="card-description">Es una criatura fea y muy peluda, capaz de imitar el sonido de varias criaturas.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/elpombero.html" role="button">Leia</a>
-                </div>
-              </div>
-              <!-- Chupacabra -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3">
-                <img src="img/img-media/chupacabra.jpeg" alt="Chupacabra">
-                <div class="card-overlay">
-                  <h5 class="card-title">Chupacabra</h5>
-                  <p class="card-description">El Chupacabra es descrito como un animal misterioso que atacan varios animales.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/chupacabra.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- El Silbon -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/elsilbon.jpeg" alt="El Silbon">
-                <div class="card-overlay">
-                  <h5 class="card-title">El Silbon</h5>
-                  <p class="card-description">La leyenda de un niño que mató a su padre y lleva consigo sus restos.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/elsilbon.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- Mapinguari -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/mapinguari.jpeg" alt="Mapinguari">
-                <div class="card-overlay">
-                  <h5 class="card-title">Mapinguari</h5>
-                  <p class="card-description">El Mapinguari es una criatura mitad humana y mitad animal.
-                  </p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/mapinguari.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- Tunche -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/tunche.jpeg" alt="Tunche">
-                <div class="card-overlay">
-                  <h5 class="card-title">Tunche</h5>
-                  <p class="card-description">Un espíritu protector de la selva peruana en que vive.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/tunche.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- Yakuruna -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/yakuruna.jpeg" alt="Yakuruna">
-                <div class="card-overlay">
-                  <h5 class="card-title">Yakuruna</h5>
-                  <p class="card-description">Conocido como el "Señor de las Aguas", mantiene el equilibrio de la vida acuática..</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/yakuruna.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- Vitória Régia -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/vitoriaregia.jpeg" alt="Vitória Régia">
-                <div class="card-overlay">
-                  <h5 class="card-title">Vitória Régia</h5>
-                  <p class="card-description">Esta es una leyenda sobre una niña que muere para unirse con el amor de su vida.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/vitoriaregia.html" role="button">Ler</a>
-                </div>
-              </div>
-              <!-- Caipora -->
-              <div class="card col-6 col-md-4 col-lg-3 col-xl-2 p-0 mb-3 ">
-                <img src="img/img-media/caipora.jpeg" alt="Caipora">
-                <div class="card-overlay">
-                  <h5 class="card-title">Caipora</h5>
-                  <p class="card-description">Una pequeña indígena que protege a los animales de los cazadores con sus gritos.</p>
-                  <a id="btn-ler" class="btn btn-primary fw-bold" href="html/lendas/caipora.html" role="button">Ler</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <section id="Os caçadores" class="py-5">
-          <div class="container rounded-4 shadow-sm p-4" style="background-color: #ED4524;">
-            <h2 class="text-center display-5 fw-bold mb-5 text-light">Quem somos?</h2>
-
-              <!-- Bloco 1 -->
-              <div class="row content-section align-items-center">
-                  <div class="col-md-6">
-                      <img src="" alt="Código do site" class="content-img">
-                  </div>
-                  <div class="col-md-6">
-                      <h4></h4>
-                      <p>
-                          
-                      </p>
-
-                      <p>
-                          
-                      </p>
-                      <p>
-                          
-                      </p>
-                  </div>
-              </div>
-
-              <!-- Bloco 2 -->
-              <div class="row content-section align-items-center mb-5">
-                  <div class="col-md-6 order-md-2">
-                      <img src="" alt="Ideias do site" class="content-img">
-                  </div>
-                  <div class="col-md-6 order-md-1">
-                      <h4></h4>
-                      <p>
-                         
-                      </p>
-                      <p>
-                          
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-    </main>
-
-    <!-- Rodapé -->
-    <footer id="rodapé" style="background-color: #AB262A;">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
-            <a href="html/feedback.html" class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Feedback</a>
-          </div>
-          <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
-            <a href="html/sobre-nos.html" class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Sobre nós</a>
-          </div>
-        </div>
-        <hr class="my-3" style="border-color: white;">
-        <div class="text-center">
-          <h1 id="logo" class="px-4 navbar-brand" href="index.html">Leyendas Latinas</h1>
+  <!-- Navbar -->
+  <header class="mb-5">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg shadow-lg"
+      style="background: linear-gradient(to right, #AB262A, #ED4524);">
+      <div class="container-fluid">
+        <a id="logo" class="px-4 link-opacity-50-hover nav-link link-light navbar-brand" href="index.html">Leyendas
+          Latinas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
+                href="html/catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="link-opacity-50-hover nav-link active link-light fw-bold fs-5" aria-current="page"
+                href="html/sobre.html">Sobre Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button id="btn-lupa" class="btn d-lg-flex" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+            <input id="input-pesquisa" class="form-control me-2 d-lg-block w-100" type="search"
+              placeholder="Busca leyendas o países" aria-label="Search">
+          </form>
         </div>
       </div>
-    </footer>
+    </nav>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+  <main>
+    <!-- Banner de la sección principal -->
+    <div id="banner-main" class="position-relative overflow-hidden p-md-3 text-center mb-4" style="color: #fff;">
+      <div class="col-md-6 p-lg-1 mx-auto my-4">
+        <h1 class="display-3 fw-bold">Leyendas Latinas</h1>
+        <h3 class="fw-normal text-muted mb-3">¡Embárcate en el mundo de las leyendas de nuestra región!</h3>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <!-- Sección de Principales Leyendas -->
+    <section id="principais-lendas" class="py-5">
+      <div class="container rounded-4 shadow-sm p-4" style="background-color: #ED4524;">
+        <h2 class="text-center display-5 fw-bold mb-5 text-light">Principales Leyendas</h2>
+        <div class="row justify-content-center g-4">
+          <!-- Polaroid 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="html/lendas/lallorona.html" class="polaroid card border-0 shadow-sm p-2 text-decoration-none">
+              <img src="img/img-media/llorona.jpg" class="card-img-top img-fluid rounded" alt="La Llorona">
+              <div class="card-body text-center">
+                <h5 class="nome-lenda card-title text-dark fs-1">La Llorona</h5>
+              </div>
+            </a>
+          </div>
+          <!-- Polaroid 2 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="html/lendas/caipora.html" class="polaroid card border-0 shadow-sm p-2 text-decoration-none">
+              <img src="img/img-media/caipora.jpeg" class="card-img-top img-fluid rounded" alt="Caipora">
+              <div class="card-body text-center">
+                <h5 class="nome-lenda card-title text-dark fs-1">Caipora</h5>
+              </div>
+            </a>
+          </div>
+          <!-- Polaroid 3 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="html/lendas/chupacabra.html" class="polaroid card border-0 shadow-sm p-2 text-decoration-none">
+              <img src="img/img-media/chupacabra.jpeg" class="card-img-top img-fluid rounded" alt="Chupacabra">
+              <div class="card-body text-center">
+                <h5 class="nome-lenda card-title text-dark fs-1">Chupacabra</h5>
+              </div>
+            </a>
+          </div>
+          <!-- Polaroid 4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="html/lendas/vitoriaregia.html" class="polaroid card border-0 shadow-sm p-2 text-decoration-none">
+              <img src="img/img-media/vitoriaregia.jpeg" class="card-img-top img-fluid rounded" alt="Victoria Regia">
+              <div class="card-body text-center">
+                <h5 class="nome-lenda card-title text-dark fs-1">Victoria Regia</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Sección Caçadores -->
+<section id="caçador" class="py-5 bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="display-5 fw-bold mb-5">¿Quiénes somos?</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="img/img-assets/caçadores.jpg" alt="Caçadores de lendas" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <div class="p-4">
+          <p class="fs-5">Somos un grupo de investigadores apasionados por las fascinantes leyendas del folclore latinoamericano, quienes, a través de nuestras investigaciones, buscamos entender el impacto profundo que estas historias han tenido en la historia de nuestros pueblos. Desde los mitos que han cruzado fronteras, hasta los relatos más locales que se mantienen vivos en las conversaciones cotidianas, todas las leyendas tienen algo único que nos conecta con el pasado y nos invita a reflexionar sobre el presente.</p>
+          <p class="fs-5">Cada leyenda que investigamos tiene el poder de influir en nuestra forma de ver el mundo, así como en la manera en que interpretamos las acciones humanas, los valores y las creencias que nos definen. Algunas de estas historias se originaron fuera del país donde nacimos, pero al perseguirlas, nos damos cuenta de cómo la narrativa se adapta a las realidades locales y cómo, con el tiempo, las leyendas han formado una red cultural que trasciende generaciones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer id="rodapé" style="background: linear-gradient(to right, #AB262A, #ED4524);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
+          <a href="html/feedback.html"
+            class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Feedback</a>
+        </div>
+        <div class="col-12 col-md-3 text-center mb-2 mb-md-0 nav-item">
+          <a href="html/sobre.html" class="link-opacity-50-hover nav-link active link-light fw-bold fs-5">Sobre
+            nosotros</a>
+        </div>
+      </div>
+      <hr class="my-3" style="border-color: white;">
+      <div class="text-center">
+        <h1 id="logo" class="px-4 navbar-brand" href="index.html">Leyendas Latinas</h1>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
